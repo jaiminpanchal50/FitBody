@@ -1,0 +1,16 @@
+.profile-container h6{
+  margin: 0 !important;
+  color: #fff;
+}
+
+@media (max-width: 500px) {
+  .date-container {
+    max-width: 150px;
+  }
+  .logo-container {
+    max-width: 120px;
+  }
+  .react-datepicker__input-container.react-datepicker__input-container input {
+    max-width: 120px;
+  }
+}
