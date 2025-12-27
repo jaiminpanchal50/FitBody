@@ -1,5 +1,5 @@
 .main {
-  min-height: calc(100vh - 233px);
+  min-height: calc(100vh - 253px);
 }
 .page-center {
   max-width: 1850px !important;
@@ -17,8 +17,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
-  margin-bottom: 20px;
+  font-weight: 600;
+  /* margin-bottom: 20px; */
   /* color: #333; */
   line-height: 1.2;
 }
@@ -51,16 +51,14 @@ h6 {
 }
 p{
   font-size: 18px;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   color: #e4e2e2;
   line-height: 1.6;
   font-weight: 400;
 }
 
-@media (max-width: 1024px) {
-  .main .page-center {
-    padding: 0 !important;
-  }
+.font-primary{
+  color: #16213e !important;
 }
 
 @media (max-width: 991px) {
@@ -82,6 +80,31 @@ p{
   h6 {
     font-size: 24px;
   }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  h4 {
+    font-size: 26px;
+  }
+  h5 {
+    font-size: 22px;
+  }
+  h6 {
+    font-size: 20px;
+  }
+  .large {
+    font-size: 18px !important;
+    line-height: 1.6;
+}
 }
 
 @media (max-width: 640px) {
