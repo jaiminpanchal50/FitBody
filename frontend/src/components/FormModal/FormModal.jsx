@@ -10,7 +10,7 @@ const FormModal = ({ isOpen, onClose }) => {
   const [formData, setFormData] = useState({
     id: "",
     title: "",
-    exercises: [{ id: crypto.randomUUID(), name: "", sets: [{ reps: undefined }] }]
+    exercises: [{ id: Math.random().toString(36).slice(2), name: "", sets: [{ reps: undefined }] }]
   });
 
   const handleChange = (e) => {
