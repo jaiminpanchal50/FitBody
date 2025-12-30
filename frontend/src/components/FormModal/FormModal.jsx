@@ -38,7 +38,7 @@ const FormModal = ({ isOpen, onClose }) => {
       ...formData,
       exercises: [
         ...formData.exercises,
-        { id: crypto.randomUUID(), name: "" },
+        { id: crypto.randomUUID(), name: "", sets: [{ reps: undefined }] },
       ],
     });
   };
@@ -50,12 +50,28 @@ const FormModal = ({ isOpen, onClose }) => {
     });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setFormData((prev) => ({ ...prev, id: uId }));
-    console.log("Form Data:", { ...formData, id: uId });
-    onClose();
+ const handleSubmit = (e) => {
+  e.preventDefault();
+
+  const newWorkout = {
+    ...formData,
+    id: uId,
   };
+
+  const existingWorkouts =
+    JSON.parse(localStorage.getItem("workouts")) || [];
+
+  const updatedWorkouts = [...existingWorkouts, newWorkout];
+
+  localStorage.setItem(
+    "workouts",
+    JSON.stringify(updatedWorkouts)
+  );
+
+  console.log("All Workouts:", updatedWorkouts);
+  onClose();
+};
+
 
   return (
     <Modal
@@ -139,7 +155,7 @@ const FormModal = ({ isOpen, onClose }) => {
           <button
             type="button"
             onClick={onClose}
-            className="px-4 py-2 rounded-lg border hover:bg-gray-100"
+            className="px-4 py-2 rounded-lg border hover:bg-gray-100 border-red-400 text-red-500 hover:border-red-600 hover:text-red-600"
           >
             Cancel
           </button>

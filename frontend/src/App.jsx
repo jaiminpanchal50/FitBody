@@ -5,6 +5,7 @@ import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import Workouts from './screens/Workouts/Workouts'
 import Home from './screens/Home/Home'
+import Workout from './screens/Workout/Workout'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/workouts" element={<Workouts />} />
+                <Route path="/workout/:id" element={<Workout />} />
               </Routes>
            
         </main>
