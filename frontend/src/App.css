@@ -3,6 +3,7 @@
 }
 .page-center {
   max-width: 1850px !important;
+  max-width: 1350px !important;
   margin: 0 auto !important;
   padding: 0 15px !important;
   float: none !important;
@@ -57,9 +58,11 @@ p{
   font-weight: 400;
 }
 
-.font-primary{
+.font-primary,label,input{
   color: #16213e !important;
 }
+
+
 
 @media (max-width: 991px) {
   h1 {
