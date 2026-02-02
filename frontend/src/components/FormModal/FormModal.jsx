@@ -52,7 +52,7 @@ const FormModal = ({ isOpen, onClose }) => {
 
  const handleSubmit = (e) => {
   e.preventDefault();
-
+console.log("Form Data Submitted:", formData);
   const newWorkout = {
     ...formData,
     id: uId,
