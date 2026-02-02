@@ -1,12 +1,11 @@
 const express = require('express');
-const userModel = require('./model/user.model');
+const { userModel } = require('./model/index.model');
 const app = express()
 
 app.use(express.json())
 
 // get users list
 app.get('/api/users', async (req, res) => {
-
     const allUsers = await userModel.find()
 
     res.status(200).send({
