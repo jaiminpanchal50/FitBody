@@ -6,6 +6,7 @@ import Footer from './components/Footer/Footer'
 import Workouts from './screens/Workouts/Workouts'
 import Home from './screens/Home/Home'
 import Workout from './screens/Workout/Workout'
+import Progress from './screens/Progress/Progress'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/workouts" element={<Workouts />} />
                 <Route path="/workout/:id" element={<Workout />} />
+                <Route path="/progress" element={<Progress />} />
               </Routes>
            
         </main>

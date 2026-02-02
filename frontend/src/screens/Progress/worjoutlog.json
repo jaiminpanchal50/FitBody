@@ -1,0 +1,995 @@
+[
+  {
+    "workoutId": "w_01",
+    "title": "Leg & Abs",
+    "date": "01/12/2025",
+    "exercises": [
+      {
+        "id": "leg1",
+        "name": "Squats",
+        "maxWeight": 80,
+        "sets": [
+          { "reps": "15", "weight": "50", "_key": "0-0" },
+          { "reps": "12", "weight": "65", "_key": "0-1" },
+          { "reps": "10", "weight": "80", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "abs1",
+        "name": "Hanging Leg Raise",
+        "maxWeight": 0,
+        "sets": [
+          { "reps": "15", "weight": "0", "_key": "1-0" },
+          { "reps": "15", "weight": "0", "_key": "1-1" },
+          { "reps": "20", "weight": "0", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "workoutId": "w_02",
+    "title": "Back & Biceps",
+    "date": "02/12/2025",
+    "exercises": [
+      {
+        "id": "back1",
+        "name": "Pull Ups",
+        "maxWeight": 20,
+        "sets": [
+          { "reps": "10", "weight": "0", "_key": "0-0" },
+          { "reps": "8", "weight": "5", "_key": "0-1" },
+          { "reps": "6", "weight": "10", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "bicep1",
+        "name": "Barbell Curl",
+        "maxWeight": 40,
+        "sets": [
+          { "reps": "12", "weight": "25", "_key": "1-0" },
+          { "reps": "10", "weight": "30", "_key": "1-1" },
+          { "reps": "8", "weight": "40", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "workoutId": "w_03",
+    "title": "Chest & Triceps",
+    "date": "03/12/2025",
+    "exercises": [
+      {
+        "id": "chest1",
+        "name": "Bench Press",
+        "maxWeight": 90,
+        "sets": [
+          { "reps": "12", "weight": "60", "_key": "0-0" },
+          { "reps": "10", "weight": "75", "_key": "0-1" },
+          { "reps": "8", "weight": "90", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "tri1",
+        "name": "Skull Crushers",
+        "maxWeight": 45,
+        "sets": [
+          { "reps": "12", "weight": "30", "_key": "1-0" },
+          { "reps": "10", "weight": "35", "_key": "1-1" },
+          { "reps": "8", "weight": "45", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "workoutId": "w_04",
+    "title": "Shoulders & Forearms",
+    "date": "04/12/2025",
+    "exercises": [
+      {
+        "id": "shoulder1",
+        "name": "Overhead Press",
+        "maxWeight": 60,
+        "sets": [
+          { "reps": "12", "weight": "40", "_key": "0-0" },
+          { "reps": "10", "weight": "50", "_key": "0-1" },
+          { "reps": "8", "weight": "60", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "forearm1",
+        "name": "Wrist Curl",
+        "maxWeight": 25,
+        "sets": [
+          { "reps": "20", "weight": "15", "_key": "1-0" },
+          { "reps": "15", "weight": "20", "_key": "1-1" },
+          { "reps": "12", "weight": "25", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+   {
+    "workoutId": "w_05",
+    "title": "Leg & Abs",
+    "date": "05/12/2025",
+    "exercises": [
+      {
+        "id": "leg1",
+        "name": "Squats",
+        "maxWeight": 82,
+        "sets": [
+          { "reps": "15", "weight": "52", "_key": "0-0" },
+          { "reps": "12", "weight": "67", "_key": "0-1" },
+          { "reps": "10", "weight": "82", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "abs1",
+        "name": "Hanging Leg Raise",
+        "maxWeight": 0,
+        "sets": [
+          { "reps": "18", "weight": "0", "_key": "1-0" },
+          { "reps": "18", "weight": "0", "_key": "1-1" },
+          { "reps": "22", "weight": "0", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "workoutId": "w_06",
+    "title": "Back & Biceps",
+    "date": "06/12/2025",
+    "exercises": [
+      {
+        "id": "back1",
+        "name": "Pull Ups",
+        "maxWeight": 22,
+        "sets": [
+          { "reps": "10", "weight": "5", "_key": "0-0" },
+          { "reps": "8", "weight": "7.5", "_key": "0-1" },
+          { "reps": "6", "weight": "12", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "bicep1",
+        "name": "Barbell Curl",
+        "maxWeight": 42,
+        "sets": [
+          { "reps": "12", "weight": "27", "_key": "1-0" },
+          { "reps": "10", "weight": "32", "_key": "1-1" },
+          { "reps": "8", "weight": "42", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "workoutId": "w_07",
+    "title": "Chest & Triceps",
+    "date": "07/12/2025",
+    "exercises": [
+      {
+        "id": "chest1",
+        "name": "Bench Press",
+        "maxWeight": 92,
+        "sets": [
+          { "reps": "12", "weight": "62", "_key": "0-0" },
+          { "reps": "10", "weight": "77", "_key": "0-1" },
+          { "reps": "8", "weight": "92", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "tri1",
+        "name": "Skull Crushers",
+        "maxWeight": 47,
+        "sets": [
+          { "reps": "12", "weight": "32", "_key": "1-0" },
+          { "reps": "10", "weight": "37", "_key": "1-1" },
+          { "reps": "8", "weight": "47", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "workoutId": "w_08",
+    "title": "Shoulders & Forearms",
+    "date": "08/12/2025",
+    "exercises": [
+      {
+        "id": "shoulder1",
+        "name": "Overhead Press",
+        "maxWeight": 62,
+        "sets": [
+          { "reps": "12", "weight": "42", "_key": "0-0" },
+          { "reps": "10", "weight": "52", "_key": "0-1" },
+          { "reps": "8", "weight": "62", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "forearm1",
+        "name": "Wrist Curl",
+        "maxWeight": 27,
+        "sets": [
+          { "reps": "20", "weight": "17", "_key": "1-0" },
+          { "reps": "15", "weight": "22", "_key": "1-1" },
+          { "reps": "12", "weight": "27", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "workoutId": "w_09",
+    "title": "Leg & Abs",
+    "date": "09/12/2025",
+    "exercises": [
+      {
+        "id": "leg1",
+        "name": "Squats",
+        "maxWeight": 85,
+        "sets": [
+          { "reps": "15", "weight": "55", "_key": "0-0" },
+          { "reps": "12", "weight": "70", "_key": "0-1" },
+          { "reps": "10", "weight": "85", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "abs1",
+        "name": "Hanging Leg Raise",
+        "maxWeight": 0,
+        "sets": [
+          { "reps": "20", "weight": "0", "_key": "1-0" },
+          { "reps": "20", "weight": "0", "_key": "1-1" },
+          { "reps": "25", "weight": "0", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+  {
+    "workoutId": "w_10",
+    "title": "Back & Biceps",
+    "date": "10/12/2025",
+    "exercises": [
+      {
+        "id": "back1",
+        "name": "Pull Ups",
+        "maxWeight": 25,
+        "sets": [
+          { "reps": "10", "weight": "5", "_key": "0-0" },
+          { "reps": "8", "weight": "10", "_key": "0-1" },
+          { "reps": "6", "weight": "15", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "bicep1",
+        "name": "Barbell Curl",
+        "maxWeight": 45,
+        "sets": [
+          { "reps": "12", "weight": "30", "_key": "1-0" },
+          { "reps": "10", "weight": "35", "_key": "1-1" },
+          { "reps": "8", "weight": "45", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+  {
+    "workoutId": "w_11",
+    "title": "Chest & Triceps",
+    "date": "11/12/2025",
+    "exercises": [
+      {
+        "id": "chest1",
+        "name": "Bench Press",
+        "maxWeight": 95,
+        "sets": [
+          { "reps": "12", "weight": "65", "_key": "0-0" },
+          { "reps": "10", "weight": "80", "_key": "0-1" },
+          { "reps": "8", "weight": "95", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "tri1",
+        "name": "Skull Crushers",
+        "maxWeight": 50,
+        "sets": [
+          { "reps": "12", "weight": "35", "_key": "1-0" },
+          { "reps": "10", "weight": "40", "_key": "1-1" },
+          { "reps": "8", "weight": "50", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+  {
+    "workoutId": "w_12",
+    "title": "Shoulders & Forearms",
+    "date": "12/12/2025",
+    "exercises": [
+      {
+        "id": "shoulder1",
+        "name": "Overhead Press",
+        "maxWeight": 65,
+        "sets": [
+          { "reps": "12", "weight": "45", "_key": "0-0" },
+          { "reps": "10", "weight": "55", "_key": "0-1" },
+          { "reps": "8", "weight": "65", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "forearm1",
+        "name": "Wrist Curl",
+        "maxWeight": 30,
+        "sets": [
+          { "reps": "20", "weight": "20", "_key": "1-0" },
+          { "reps": "15", "weight": "25", "_key": "1-1" },
+          { "reps": "12", "weight": "30", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+  {
+    "workoutId": "w_13",
+    "title": "Leg & Abs",
+    "date": "13/12/2025",
+    "exercises": [
+      {
+        "id": "leg1",
+        "name": "Squats",
+        "maxWeight": 90,
+        "sets": [
+          { "reps": "15", "weight": "60", "_key": "0-0" },
+          { "reps": "12", "weight": "75", "_key": "0-1" },
+          { "reps": "10", "weight": "90", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "abs1",
+        "name": "Hanging Leg Raise",
+        "maxWeight": 0,
+        "sets": [
+          { "reps": "22", "weight": "0", "_key": "1-0" },
+          { "reps": "22", "weight": "0", "_key": "1-1" },
+          { "reps": "28", "weight": "0", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+   {
+    "workoutId": "w_01",
+    "title": "Leg & Abs",
+    "date": "013/12/2025",
+    "exercises": [
+      {
+        "id": "leg1",
+        "name": "Squats",
+        "maxWeight": 80,
+        "sets": [
+          { "reps": "15", "weight": "50", "_key": "0-0" },
+          { "reps": "12", "weight": "65", "_key": "0-1" },
+          { "reps": "10", "weight": "80", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "abs1",
+        "name": "Hanging Leg Raise",
+        "maxWeight": 0,
+        "sets": [
+          { "reps": "15", "weight": "0", "_key": "1-0" },
+          { "reps": "15", "weight": "0", "_key": "1-1" },
+          { "reps": "20", "weight": "0", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "workoutId": "w_02",
+    "title": "Back & Biceps",
+    "date": "14/12/2025",
+    "exercises": [
+      {
+        "id": "back1",
+        "name": "Pull Ups",
+        "maxWeight": 20,
+        "sets": [
+          { "reps": "10", "weight": "0", "_key": "0-0" },
+          { "reps": "8", "weight": "5", "_key": "0-1" },
+          { "reps": "6", "weight": "10", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "bicep1",
+        "name": "Barbell Curl",
+        "maxWeight": 40,
+        "sets": [
+          { "reps": "12", "weight": "25", "_key": "1-0" },
+          { "reps": "10", "weight": "30", "_key": "1-1" },
+          { "reps": "8", "weight": "40", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "workoutId": "w_03",
+    "title": "Chest & Triceps",
+    "date": "15/12/2025",
+    "exercises": [
+      {
+        "id": "chest1",
+        "name": "Bench Press",
+        "maxWeight": 90,
+        "sets": [
+          { "reps": "12", "weight": "60", "_key": "0-0" },
+          { "reps": "10", "weight": "75", "_key": "0-1" },
+          { "reps": "8", "weight": "90", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "tri1",
+        "name": "Skull Crushers",
+        "maxWeight": 45,
+        "sets": [
+          { "reps": "12", "weight": "30", "_key": "1-0" },
+          { "reps": "10", "weight": "35", "_key": "1-1" },
+          { "reps": "8", "weight": "45", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "workoutId": "w_04",
+    "title": "Shoulders & Forearms",
+    "date": "16/12/2025",
+    "exercises": [
+      {
+        "id": "shoulder1",
+        "name": "Overhead Press",
+        "maxWeight": 60,
+        "sets": [
+          { "reps": "12", "weight": "40", "_key": "0-0" },
+          { "reps": "10", "weight": "50", "_key": "0-1" },
+          { "reps": "8", "weight": "60", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "forearm1",
+        "name": "Wrist Curl",
+        "maxWeight": 25,
+        "sets": [
+          { "reps": "20", "weight": "15", "_key": "1-0" },
+          { "reps": "15", "weight": "20", "_key": "1-1" },
+          { "reps": "12", "weight": "25", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+   {
+    "workoutId": "w_05",
+    "title": "Leg & Abs",
+    "date": "17/12/2025",
+    "exercises": [
+      {
+        "id": "leg1",
+        "name": "Squats",
+        "maxWeight": 82,
+        "sets": [
+          { "reps": "15", "weight": "52", "_key": "0-0" },
+          { "reps": "12", "weight": "67", "_key": "0-1" },
+          { "reps": "10", "weight": "82", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "abs1",
+        "name": "Hanging Leg Raise",
+        "maxWeight": 0,
+        "sets": [
+          { "reps": "18", "weight": "0", "_key": "1-0" },
+          { "reps": "18", "weight": "0", "_key": "1-1" },
+          { "reps": "22", "weight": "0", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "workoutId": "w_06",
+    "title": "Back & Biceps",
+    "date": "18/12/2025",
+    "exercises": [
+      {
+        "id": "back1",
+        "name": "Pull Ups",
+        "maxWeight": 22,
+        "sets": [
+          { "reps": "10", "weight": "5", "_key": "0-0" },
+          { "reps": "8", "weight": "7.5", "_key": "0-1" },
+          { "reps": "6", "weight": "12", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "bicep1",
+        "name": "Barbell Curl",
+        "maxWeight": 42,
+        "sets": [
+          { "reps": "12", "weight": "27", "_key": "1-0" },
+          { "reps": "10", "weight": "32", "_key": "1-1" },
+          { "reps": "8", "weight": "42", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "workoutId": "w_07",
+    "title": "Chest & Triceps",
+    "date": "19/12/2025",
+    "exercises": [
+      {
+        "id": "chest1",
+        "name": "Bench Press",
+        "maxWeight": 92,
+        "sets": [
+          { "reps": "12", "weight": "62", "_key": "0-0" },
+          { "reps": "10", "weight": "77", "_key": "0-1" },
+          { "reps": "8", "weight": "92", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "tri1",
+        "name": "Skull Crushers",
+        "maxWeight": 47,
+        "sets": [
+          { "reps": "12", "weight": "32", "_key": "1-0" },
+          { "reps": "10", "weight": "37", "_key": "1-1" },
+          { "reps": "8", "weight": "47", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "workoutId": "w_08",
+    "title": "Shoulders & Forearms",
+    "date": "20/12/2025",
+    "exercises": [
+      {
+        "id": "shoulder1",
+        "name": "Overhead Press",
+        "maxWeight": 62,
+        "sets": [
+          { "reps": "12", "weight": "42", "_key": "0-0" },
+          { "reps": "10", "weight": "52", "_key": "0-1" },
+          { "reps": "8", "weight": "62", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "forearm1",
+        "name": "Wrist Curl",
+        "maxWeight": 27,
+        "sets": [
+          { "reps": "20", "weight": "17", "_key": "1-0" },
+          { "reps": "15", "weight": "22", "_key": "1-1" },
+          { "reps": "12", "weight": "27", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "workoutId": "w_09",
+    "title": "Leg & Abs",
+    "date": "21/12/2025",
+    "exercises": [
+      {
+        "id": "leg1",
+        "name": "Squats",
+        "maxWeight": 85,
+        "sets": [
+          { "reps": "15", "weight": "55", "_key": "0-0" },
+          { "reps": "12", "weight": "70", "_key": "0-1" },
+          { "reps": "10", "weight": "85", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "abs1",
+        "name": "Hanging Leg Raise",
+        "maxWeight": 0,
+        "sets": [
+          { "reps": "20", "weight": "0", "_key": "1-0" },
+          { "reps": "20", "weight": "0", "_key": "1-1" },
+          { "reps": "25", "weight": "0", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+  {
+    "workoutId": "w_10",
+    "title": "Back & Biceps",
+    "date": "22/12/2025",
+    "exercises": [
+      {
+        "id": "back1",
+        "name": "Pull Ups",
+        "maxWeight": 25,
+        "sets": [
+          { "reps": "10", "weight": "5", "_key": "0-0" },
+          { "reps": "8", "weight": "10", "_key": "0-1" },
+          { "reps": "6", "weight": "15", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "bicep1",
+        "name": "Barbell Curl",
+        "maxWeight": 45,
+        "sets": [
+          { "reps": "12", "weight": "30", "_key": "1-0" },
+          { "reps": "10", "weight": "35", "_key": "1-1" },
+          { "reps": "8", "weight": "45", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+  {
+    "workoutId": "w_11",
+    "title": "Chest & Triceps",
+    "date": "23/12/2025",
+    "exercises": [
+      {
+        "id": "chest1",
+        "name": "Bench Press",
+        "maxWeight": 95,
+        "sets": [
+          { "reps": "12", "weight": "65", "_key": "0-0" },
+          { "reps": "10", "weight": "80", "_key": "0-1" },
+          { "reps": "8", "weight": "95", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "tri1",
+        "name": "Skull Crushers",
+        "maxWeight": 50,
+        "sets": [
+          { "reps": "12", "weight": "35", "_key": "1-0" },
+          { "reps": "10", "weight": "40", "_key": "1-1" },
+          { "reps": "8", "weight": "50", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+  {
+    "workoutId": "w_12",
+    "title": "Shoulders & Forearms",
+    "date": "24/12/2025",
+    "exercises": [
+      {
+        "id": "shoulder1",
+        "name": "Overhead Press",
+        "maxWeight": 65,
+        "sets": [
+          { "reps": "12", "weight": "45", "_key": "0-0" },
+          { "reps": "10", "weight": "55", "_key": "0-1" },
+          { "reps": "8", "weight": "65", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "forearm1",
+        "name": "Wrist Curl",
+        "maxWeight": 30,
+        "sets": [
+          { "reps": "20", "weight": "20", "_key": "1-0" },
+          { "reps": "15", "weight": "25", "_key": "1-1" },
+          { "reps": "12", "weight": "30", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+  {
+    "workoutId": "w_13",
+    "title": "Leg & Abs",
+    "date": "25/12/2025",
+    "exercises": [
+      {
+        "id": "leg1",
+        "name": "Squats",
+        "maxWeight": 90,
+        "sets": [
+          { "reps": "15", "weight": "60", "_key": "0-0" },
+          { "reps": "12", "weight": "75", "_key": "0-1" },
+          { "reps": "10", "weight": "90", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "abs1",
+        "name": "Hanging Leg Raise",
+        "maxWeight": 0,
+        "sets": [
+          { "reps": "22", "weight": "0", "_key": "1-0" },
+          { "reps": "22", "weight": "0", "_key": "1-1" },
+          { "reps": "28", "weight": "0", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+   {
+    "workoutId": "w_01",
+    "title": "Leg & Abs",
+    "date": "26/12/2025",
+    "exercises": [
+      {
+        "id": "leg1",
+        "name": "Squats",
+        "maxWeight": 80,
+        "sets": [
+          { "reps": "15", "weight": "50", "_key": "0-0" },
+          { "reps": "12", "weight": "65", "_key": "0-1" },
+          { "reps": "10", "weight": "80", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "abs1",
+        "name": "Hanging Leg Raise",
+        "maxWeight": 0,
+        "sets": [
+          { "reps": "15", "weight": "0", "_key": "1-0" },
+          { "reps": "15", "weight": "0", "_key": "1-1" },
+          { "reps": "20", "weight": "0", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "workoutId": "w_02",
+    "title": "Back & Biceps",
+    "date": "27/12/2025",
+    "exercises": [
+      {
+        "id": "back1",
+        "name": "Pull Ups",
+        "maxWeight": 20,
+        "sets": [
+          { "reps": "10", "weight": "0", "_key": "0-0" },
+          { "reps": "8", "weight": "5", "_key": "0-1" },
+          { "reps": "6", "weight": "10", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "bicep1",
+        "name": "Barbell Curl",
+        "maxWeight": 40,
+        "sets": [
+          { "reps": "12", "weight": "25", "_key": "1-0" },
+          { "reps": "10", "weight": "30", "_key": "1-1" },
+          { "reps": "8", "weight": "40", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "workoutId": "w_03",
+    "title": "Chest & Triceps",
+    "date": "28/12/2025",
+    "exercises": [
+      {
+        "id": "chest1",
+        "name": "Bench Press",
+        "maxWeight": 90,
+        "sets": [
+          { "reps": "12", "weight": "60", "_key": "0-0" },
+          { "reps": "10", "weight": "75", "_key": "0-1" },
+          { "reps": "8", "weight": "90", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "tri1",
+        "name": "Skull Crushers",
+        "maxWeight": 45,
+        "sets": [
+          { "reps": "12", "weight": "30", "_key": "1-0" },
+          { "reps": "10", "weight": "35", "_key": "1-1" },
+          { "reps": "8", "weight": "45", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "workoutId": "w_04",
+    "title": "Shoulders & Forearms",
+    "date": "29/12/2025",
+    "exercises": [
+      {
+        "id": "shoulder1",
+        "name": "Overhead Press",
+        "maxWeight": 60,
+        "sets": [
+          { "reps": "12", "weight": "40", "_key": "0-0" },
+          { "reps": "10", "weight": "50", "_key": "0-1" },
+          { "reps": "8", "weight": "60", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "forearm1",
+        "name": "Wrist Curl",
+        "maxWeight": 25,
+        "sets": [
+          { "reps": "20", "weight": "15", "_key": "1-0" },
+          { "reps": "15", "weight": "20", "_key": "1-1" },
+          { "reps": "12", "weight": "25", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+   {
+    "workoutId": "w_05",
+    "title": "Leg & Abs",
+    "date": "30/12/2025",
+    "exercises": [
+      {
+        "id": "leg1",
+        "name": "Squats",
+        "maxWeight": 82,
+        "sets": [
+          { "reps": "15", "weight": "52", "_key": "0-0" },
+          { "reps": "12", "weight": "67", "_key": "0-1" },
+          { "reps": "10", "weight": "82", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "abs1",
+        "name": "Hanging Leg Raise",
+        "maxWeight": 0,
+        "sets": [
+          { "reps": "18", "weight": "0", "_key": "1-0" },
+          { "reps": "18", "weight": "0", "_key": "1-1" },
+          { "reps": "22", "weight": "0", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "workoutId": "w_06",
+    "title": "Back & Biceps",
+    "date": "31/12/2025",
+    "exercises": [
+      {
+        "id": "back1",
+        "name": "Pull Ups",
+        "maxWeight": 22,
+        "sets": [
+          { "reps": "10", "weight": "5", "_key": "0-0" },
+          { "reps": "8", "weight": "7.5", "_key": "0-1" },
+          { "reps": "6", "weight": "12", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "bicep1",
+        "name": "Barbell Curl",
+        "maxWeight": 42,
+        "sets": [
+          { "reps": "12", "weight": "27", "_key": "1-0" },
+          { "reps": "10", "weight": "32", "_key": "1-1" },
+          { "reps": "8", "weight": "42", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "workoutId": "w_07",
+    "title": "Chest & Triceps",
+    "date": "1/1/2025",
+    "exercises": [
+      {
+        "id": "chest1",
+        "name": "Bench Press",
+        "maxWeight": 92,
+        "sets": [
+          { "reps": "12", "weight": "62", "_key": "0-0" },
+          { "reps": "10", "weight": "77", "_key": "0-1" },
+          { "reps": "8", "weight": "92", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "tri1",
+        "name": "Skull Crushers",
+        "maxWeight": 47,
+        "sets": [
+          { "reps": "12", "weight": "32", "_key": "1-0" },
+          { "reps": "10", "weight": "37", "_key": "1-1" },
+          { "reps": "8", "weight": "47", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "workoutId": "w_08",
+    "title": "Shoulders & Forearms",
+    "date": "2/2/2025",
+    "exercises": [
+      {
+        "id": "shoulder1",
+        "name": "Overhead Press",
+        "maxWeight": 62,
+        "sets": [
+          { "reps": "12", "weight": "42", "_key": "0-0" },
+          { "reps": "10", "weight": "52", "_key": "0-1" },
+          { "reps": "8", "weight": "62", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "forearm1",
+        "name": "Wrist Curl",
+        "maxWeight": 27,
+        "sets": [
+          { "reps": "20", "weight": "17", "_key": "1-0" },
+          { "reps": "15", "weight": "22", "_key": "1-1" },
+          { "reps": "12", "weight": "27", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "workoutId": "w_09",
+    "title": "Leg & Abs",
+    "date": "3/1/2025",
+    "exercises": [
+      {
+        "id": "leg1",
+        "name": "Squats",
+        "maxWeight": 85,
+        "sets": [
+          { "reps": "15", "weight": "55", "_key": "0-0" },
+          { "reps": "12", "weight": "70", "_key": "0-1" },
+          { "reps": "10", "weight": "85", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "abs1",
+        "name": "Hanging Leg Raise",
+        "maxWeight": 0,
+        "sets": [
+          { "reps": "20", "weight": "0", "_key": "1-0" },
+          { "reps": "20", "weight": "0", "_key": "1-1" },
+          { "reps": "25", "weight": "0", "_key": "1-2" }
+        ]
+      }
+    ]
+  },
+  {
+    "workoutId": "w_10",
+    "title": "Back & Biceps",
+    "date": "10/12/2025",
+    "exercises": [
+      {
+        "id": "back1",
+        "name": "Pull Ups",
+        "maxWeight": 250,
+        "sets": [
+          { "reps": "10", "weight": "5", "_key": "0-0" },
+          { "reps": "8", "weight": "10", "_key": "0-1" },
+          { "reps": "6", "weight": "15", "_key": "0-2" }
+        ]
+      },
+      {
+        "id": "bicep1",
+        "name": "Barbell Curl",
+        "maxWeight": 45,
+        "sets": [
+          { "reps": "12", "weight": "30", "_key": "1-0" },
+          { "reps": "10", "weight": "35", "_key": "1-1" },
+          { "reps": "8", "weight": "45", "_key": "1-2" }
+        ]
+      }
+    ]
+  }
+]

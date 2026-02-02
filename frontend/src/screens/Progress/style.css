@@ -1,0 +1,5 @@
+ .apexcharts-title-text,
+ .apexcharts-text.apexcharts-yaxis-label tspan  {
+    color:#fff !important;
+    background-color: red !important;
+}
